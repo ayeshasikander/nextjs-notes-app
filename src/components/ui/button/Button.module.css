@@ -1,0 +1,31 @@
+/* src/components/ui/Button/Button.module.css */
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #2980b9;
+}
+
+.secondary {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.secondary:hover {
+  background-color: #bdc3c7;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

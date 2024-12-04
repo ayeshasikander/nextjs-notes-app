@@ -1,0 +1,1 @@
+// Testing ensures that the component renders correctly and behaves as expected.

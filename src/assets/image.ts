@@ -1,0 +1,1 @@
+// for dynamic image import from public folder
